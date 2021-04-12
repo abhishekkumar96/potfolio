@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: darksalmon;
+  background: linear-gradient(to bottom , black,red);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color:silver;
+  /* margin-top: 0% i !important; */
+  font-family: "Shadows Into Light", cursive;
+}
+
+ul li a {
+  color: white;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
+
+#social li {
+  list-style: none;
+  display: inline-block;
+  list-style: none;
+  margin-left: 10%;
+}
+ #social li a {
+  color: #fff;
+  padding: 10px;
+}
+#social li i:hover {
+  /* width: 100%; */
+  transition: width 0.5s;
+  transform: scale(1.2);
+  color: lightblue;
+}
+
+#social {
+  color: #fff !important;
+}
+
+
+@media screen and (max-width: 600px) {
+  #social li {
+    list-style: none;
+    float: left;
+    display: block;
+    list-style: none;
+  }
+   
+    
