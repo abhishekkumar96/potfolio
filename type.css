@@ -7,7 +7,7 @@
 
 		.container::before {
 			content: '';
-			background: url('image/planing.jpg')
+			background: url('https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=947&q=80')
 				no-repeat center center/cover;
 			position: absolute;
 			opacity: 0.5;
@@ -44,7 +44,7 @@ ul li a {
   flex: 1;
   }
 
-  
+
  #social li a {
   color: rgb(130, 4, 247);
   padding: 10px;
