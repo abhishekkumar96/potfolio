@@ -4,8 +4,8 @@
 body,#home {
   margin: 0;
   padding: 0;
-  background: darksalmon;
-  background: linear-gradient(to bottom , black,red);
+  background: url(image/planing.jpg);
+  /* background: linear-gradient(to bottom , #fff,); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,6 +47,7 @@ ul li a {
 #social {
   color: #fff !important;
 }
+
 
 
 @media screen and (max-width: 600px) {
