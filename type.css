@@ -1,19 +1,25 @@
 * {
-  box-sizing: border-box;
-}
-body,#home {
   margin: 0;
   padding: 0;
-  background: url(image/planing.jpg);
-  /* background: linear-gradient(to bottom , #fff,); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  box-sizing: border-box;
 }
 
+
+		.container::before {
+			content: '';
+			background: url('image/planing.jpg')
+				no-repeat center center/cover;
+			position: absolute;
+			opacity: 0.5;
+			top: 0px;
+			left: 0px;
+			width: 100vw;
+			height:100vh;
+			z-index: -1;
+		}
+
 h1 {
-  color:silver;
+  
   /* margin-top: 0% i !important; */
   font-family: "Shadows Into Light", cursive;
 }
@@ -25,23 +31,29 @@ ul li a {
 .navbar-brand {
   color: #fff !important;
 }
+#social{
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
 
 #social li {
   list-style: none;
-  display: inline-block;
-  list-style: none;
-  margin-left: 10%;
-}
+  flex: 1;
+  }
+
+  
  #social li a {
-  color: #fff;
+  color: rgb(130, 4, 247);
   padding: 10px;
 }
 #social li i:hover {
   /* width: 100%; */
   transition: width 0.5s;
   transform: scale(1.2);
-  color: lightblue;
+  color: rgb(87, 5, 163);
 }
 
 #social {
